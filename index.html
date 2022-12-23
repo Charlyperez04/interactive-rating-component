@@ -3,22 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="./styles.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Interactive rating component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">  
+  <title>Interactive rating component</title>
 </head>
 <body>
+
+  <div class="container-rating">
+    <div><figure><img src="./images/icon-star.svg" alt=""></figure></div>
+    <p>How did we do?</p>
+    <p>Please let us know how we did with your support request. All feedback is appreciated to hel us improve our offering!</p>
+    <button class="select-button">1</button>
+    <button class="select-button">2</button>
+    <button class="select-button">3</button>
+    <button class="select-button">4</button>
+    <button class="select-button">5</button>
+    <button class="submit-button">Submit</button>
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/Charlyperez04">Carlos Perez</a>.
   </div>
+  <script src="./main.js"></script>
 </body>
 </html>
