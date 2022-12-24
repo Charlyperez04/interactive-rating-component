@@ -125,4 +125,9 @@ p{
 .inactive {
     display: none;
   }
-  
+.attribution{
+    color:var(--White)
+}
+a:visited{
+    color: var(--White);
+}
